@@ -1,0 +1,17 @@
+.reactions-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 25px;
+}
+
+.reactions {
+    width: 260px;
+    padding: 10px;
+    flex-basis:calc(100% / 3);
+}
+
+.current-reaction {
+    height: 500;
+    width: 700;
+    text-align: center;
+}
